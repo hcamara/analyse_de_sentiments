@@ -81,7 +81,7 @@ def index():
 
 @app.route('/train')
 def train():
-    main.train() 
+    main.train()
     return "Model trained"
 
 @app.route('/predict', methods=['POST'])
