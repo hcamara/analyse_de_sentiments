@@ -1,6 +1,6 @@
 [
     {
-      "name": "sample-app ",
+      "name": "Deployment",
       "imageUri": "232413781663.dkr.ecr.us-east-1.amazonaws.com/simple-docker-service-12237a0b1a2d:latest"
     }
   ]
