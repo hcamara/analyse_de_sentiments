@@ -77,7 +77,7 @@ main = Main()
 
 @app.route('/')
 def index():
-    return "Sentiment Analysis API"
+    return "Sentiment Analysis AP I"
 
 @app.route('/train')
 def train():
