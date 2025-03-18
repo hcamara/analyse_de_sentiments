@@ -77,7 +77,7 @@ main = Main()
 
 @app.route('/')
 def index():
-    return "Sentiment Analysis AP I"
+    return "Sentiment Analysis API"
 
 @app.route('/train')
 def train():
@@ -90,7 +90,5 @@ def predict():
     return main.predict(data['text'])
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80)
-    #print(main.predict("Depuis ce matin votre application ne marche pas, je n'arrive pas à déverrouiller ma voiture."))
-    #print(main.predict("j'ai adore la prestation"))
+    app.run(host='0.0.0.0', port=8080)
 
